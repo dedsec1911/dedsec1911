@@ -198,7 +198,7 @@
  ╚══════════════════════════════════════════════════════════════╝
 ```
 
-![Snake animation](https://github.com/dedsec1911/dedsec1911/blob/output/github-contribution-grid-snake-dark.svg)
+![Snake animation](https://raw.githubusercontent.com/dedsec1911/dedsec1911/output/github-contribution-grid-snake-dark.svg)
 
 </div>
 
@@ -217,11 +217,14 @@
     workflow_dispatch:
   jobs:
     generate:
+      permissions:
+        contents: write
       runs-on: ubuntu-latest
       steps:
         - uses: Platane/snk@v3
           with:
-            github_user_token: ${{ secrets.GITHUB_TOKEN }}
+            github_user_name: ${{ github.repository_owner }}
+            github_token: ${{ secrets.GITHUB_TOKEN }}
             outputs: |
               dist/github-contribution-grid-snake.svg
               dist/github-contribution-grid-snake-dark.svg?palette=github-dark
