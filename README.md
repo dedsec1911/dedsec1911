@@ -170,15 +170,15 @@
 
 ---
 
-## 👾 VISITOR COUNT
+## 👾 Visitor Count  
 
 <div align="center">
 
-```
-  VISITORS WHO HAVE VISITED THIS MAP:
-```
+![Profile Views](https://komarev.com/ghpvc/?username=dedsec1911&label=Visitors&color=blueviolet&style=for-the-badge)
 
-![Visitor Count](https://profile-counter.glitch.me/dedsec1911/count.svg)
+<br><br>
+
+![Hits](https://hit.yhype.me/github/profile?account_id=dedsec1911)
 
 </div>
 
